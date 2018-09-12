@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+body{
+  height: 930px;
+  padding: 200px;
+  color: rgb(12, 8, 8);
+  background-image: url(img/fundo-site.jpg);
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
