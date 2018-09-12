@@ -4,7 +4,8 @@
 
     background-repeat: repeat-x;
     min-height: 204px;
-    min-width: 975px;
+    min-width: 1263px;
+    margin-left:-200px;
    
     list-style:none;
 }
