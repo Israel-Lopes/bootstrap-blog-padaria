@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
 
 //Components{
-    import Menu from './components/Menu.js';
+    import NavBar from './components/NavBar.js';
     import Conteudo from './components/Conteudo.js';
     import Rodape from './components/Rodape.js';
-    import './css/BomgostoContainer.css';
 //}
 
 class BomgostoContainer extends Component{
 
     render(){
         return (
-            <div>
+            <div className="container">
                 <div id="cabecalho">
-                    <Menu/>
-                    <h1>Bom Gosto</h1>
+                    <NavBar/>
                 </div>
                 <div id="conteudo">
                    <Conteudo/>
