@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-
+import rodape from '../img/rodape.jpg';
 
 class Rodape extends Component{
 
     render(){
         return(
-            <h2 id="rodape">
-                
-            </h2>
+            <div id="rodape">
+                <img src={rodape}></img>
+            </div>
         );
     }
 }
