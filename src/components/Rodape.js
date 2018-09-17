@@ -5,7 +5,7 @@ class Rodape extends Component{
 
     render(){
         return(
-            <div id="rodape">
+            <div className="container" id="rodape">
                 <img src={rodape}></img>
             </div>
         );

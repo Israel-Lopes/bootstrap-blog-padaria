@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import fundoprincipal from '../img/fundo-topo-2.jpg'
 const NavBar = (props) =>{
         return(
-            <nav className="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark text-monospace">
             <a className="navbar-brand h1" href="#">Bom Gosto</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
