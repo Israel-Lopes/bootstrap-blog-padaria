@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import doce from '../img/doce.png';
+import salgado from '../img/salgado.png';
+import torta from '../img/torta.png';
+import bolo from '../img/bolo.png';
 
 class Card extends Component{
     render(){
@@ -20,9 +23,9 @@ class CardImg extends Component{
         return(
             <div className="card bg-transparent" style={{width: "18rem"}}>
             <img className="card-img-top" src={this.props.image} alt="Card image cap" style={{backgroundSize: "250px"}} />
-            <div className="card-body">
+            <div className="card-body text-dark">
             <h1>{this.props.title}</h1>  
-              <p className="card-text text-dark">{this.props.text}</p>
+              <p className="card-text">{this.props.text}</p>
             </div>
           </div>
         );
@@ -37,48 +40,14 @@ class Conteudo extends Component{
                   <div className="container">
                   <br/>
                   <br/>
-                        <div className="section-header " style={{textAlign: "center"}}>
-                            <h1 className="dark-text">PRODUTOS</h1>
+                        <div className="section-header text-dark " style={{textAlign: "center"}}>
+                            <h1>PRODUTOS</h1>
                             <h5 className="section-legend">Conheça nossos produtos</h5>
                         </div>  
                    <CardImg title="DOCES" image={doce} text="Dos pratos mais tradicionais, que a vovó fazia, a sobremesas de chefs renomados, veja uma reunião de doces que vão dar água na boca"/>  
-                   
-                        <div className="col-lg-3 col-sm-3 focus-box">
-                            <h3 className="dark-text">DOCES</h3>
-                            <h5>
-                                <p>Dos pratos mais tradicionais, que a vovó</p> 
-                                <p>fazia, a sobremesas de chefs renomados, veja</p>
-                                <p>uma reunião de doces que vão dar água na boca</p>
-                            </h5>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-3 focus-box">
-                            <h3>SALGADOS</h3>
-                            <h5>
-                                <p>Deliciosos salgados de qualidade e de </p>
-                                <p>fabricação própria.</p>
-                            </h5>
-                        </div>
-                        
-                        <div className="col-lg-3 col-sm-3 focus-box">
-                            <h3>TORTAS</h3>
-                            <h5>
-                                <p>Uma torta ou tarte é um alimento cozido </p>
-                                <p>ao forno, feito com massa de farinha e </p>
-                                <p>recheado com ingredientes de sua </p>
-                                <p>preferência, tanto doces quanto salgados.</p>
-                            </h5>
-                        </div>
-
-                        <div className="col-lg-3 col-sm-3 focus-box">
-                            <h3>BOLOS</h3>
-                            <h5>
-                                <p>Bolo é um alimento à base de massa de </p>
-                                <p>farinha, geralmente doce e cozido no </p>
-                                <p>forno. Os bolos são um dos componentes </p>
-                                <p>principais das festas!</p>
-                            </h5>
-                        </div>
+                   <CardImg title="SALGADOS" image={salgado} text="Deliciosos salgados de qualidade e de abricação própria." />
+                   <CardImg title="TORTAS" image={torta} text="Uma torta é um alimento cozido ao forno, feito com massa de farinha e recheado com ingredientes de sua preferência, tanto doces quanto salgados." />
+                   <CardImg title="BOLOS" image={bolo} text="Bolo é um alimento à base de massa de farinha, geralmente doce e cozido no forno. Os bolos são um dos componentes principais das festas!" /> 
                     </div>
 
                 <div clasName="container" style={{display: "flex"}}>
