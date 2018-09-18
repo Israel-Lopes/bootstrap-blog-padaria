@@ -8,7 +8,7 @@ import bolo from '../img/bolo.png';
 class CardImg extends Component{
     render(){
         return(
-            <div className="card-deck bg-transparent font-weight-bold text-monospace" style={{width: "19rem", textAlign: "center"}}>
+            <div className="card-deck bg-transparent font-weight-bold text-monospace text-center" style={{width: "19rem"}}>
             <img className="card-img-top" src={this.props.image} alt="Card image cap" style={{position: "relative" ,width: "130px", height: "130px", left: "80px"}} />
             <div className="card-body text-dark">
             <h1>{this.props.title}</h1>  

@@ -4,7 +4,12 @@ import BomgostoContainer from './BomgostoContainer';
 
 class App extends Component {
   render() {
-    return <BomgostoContainer />
+    return   (
+          <div>
+            <BomgostoContainer />
+          </div>
+    );
+            
   }
 }
 
