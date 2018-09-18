@@ -19,7 +19,7 @@ class BomgostoContainer extends Component{
                    <Carrosel/>
                    <Conteudo/>
                 </div>
-                <div className="container">
+                <div>
                     <Rodape/>
                 </div>
             </div>

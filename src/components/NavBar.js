@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import fundoprincipal from '../img/fundo-topo-2.jpg'
+import Rodape from './Rodape.js';
 const NavBar = (props) =>{
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light navbar navbar-dark bg-dark text-monospace">
@@ -24,9 +25,8 @@ const NavBar = (props) =>{
                     Opções
                   </a>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a className="dropdown-item" href="#">Preços</a>
-                    <a className="dropdown-item" href="#">Contato</a>
-                    <a className="dropdown-item" href="#">Onde nos encontrar</a>
+                    <a className="dropdown-item" href="#rodape" >Contato</a>
+                    <a className="dropdown-item" href="#rodape">Onde nos encontrar</a>
                   </div>
                 </li>
               </ul>
