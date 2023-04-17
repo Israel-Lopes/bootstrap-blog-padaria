@@ -4,6 +4,7 @@ Para instalr basta:
 
 1. ``npm install`` dentro do diretorio do projeto.
 2. ``npm start``
+3. Em seguida basta acessar [http://localhost:3000/#](http://localhost:3000/#)
 
 A pagina foi desenvolvida utilizando bootstrap e react.
 
